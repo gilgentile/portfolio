@@ -1,0 +1,118 @@
+/*
+Theme Name: Gil Gentile Portfolio
+Theme URI: https://wordpress.org/themes/gilgentileportfolio
+Author: Gil Gentile
+Author URI: gilgentile.com
+Description: built this to fix myself, inspired by http://contemporary-home-computing.org/prof-dr-style/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fix myself
+Tags: try to fix myself
+*/
+
+body{
+	padding-top: 0.25em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.25em;
+	font-size: 1.1em;
+	font-family: serif;
+}
+#front{
+	max-width:60em;
+}
+table, tr, td{
+	border:none;
+	vertical-align:top;
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:.5em;
+	margin:0;
+	text-align:left;
+}
+
+a:link, a:visited {
+	color:#017d22;
+	padding-right:.2em;
+}
+a:hover {
+	color: #182287;
+	padding-right:.2em;
+}
+p {
+	font-size: 1em;
+}
+h1 {
+	font-size: 1em;
+	margin-top:1em;
+	margin-bottom: 0em;
+	font-family: 'Fondamento', cursive;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1em;
+	display:inline;
+	text-decoration: none;
+	font-style:oblique;
+	font-weight: normal;
+}
+p1{
+	display:inline;
+	line-height: 1.3em;
+}
+
+.wp-block-image {
+	display:inline-block;
+	margin: 0 0 0 0;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	vertical-align:middle;
+}
+.wp-block-image img {
+	width:100%;
+	height: auto;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.content{
+	width:100%;
+	text-align: center;
+}
+
+.category {
+	position:relative;
+	}
+
+#top{
+}
+
+.wp-block-video{
+	z-index:1000;
+	width:100%;
+	height:auto;
+}
+
+@media(min-width: 1080px) {
+	body{
+		font-size: 1.4em;
+		padding: 1em;
+	}
+	#front{
+	max-width:80em;
+	}
+}
+
+@media(max-width: 600px) {
+	body{
+		font-size: 1.6em;
+		line-height: 1.2em;
+		padding:0.25em;
+	}
+	.wp-block-image {
+		width: 100%;
+		height: auto;
+	}
+	
+}
