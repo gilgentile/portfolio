@@ -1,0 +1,47 @@
+<html>
+<body>
+<title>Some Very Recent Sculpture(2013)</title>
+<style type="text/css">
+<!--
+
+a:link {
+	color: #00F;
+}
+a:visited {
+	color: #00F;
+}
+a:hover {
+	color: #F00;
+}
+body {
+	background-color: #FFF;
+}
+#title{
+	background-color:#FFF;
+	margin: 25px 25px;
+	max-width: 450px;
+	min-width: 450px;
+	text-align: justify;
+	padding: 10px;
+	}
+#stand1{
+	position:absolute;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+}	
+
+-->
+</style></head>
+</body>
+
+<div id="title">
+<u><font face="cursive">"Some Very Recent Sculpture" 2013
+</font></u> 
+
+</div>
+
+<div id="stand1"
+</div>
+
+</html>
